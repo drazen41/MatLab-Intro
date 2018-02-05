@@ -1,2 +1,2 @@
 function res=income(rate,price)
-  res=rate*price
+  res=sum((rate .* price)*16*6);

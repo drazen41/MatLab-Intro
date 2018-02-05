@@ -1,0 +1,9 @@
+function S=simple_stats(N)
+  [a,b] = size(N); 
+  %S=sum(N(1:end,1:end));
+  average=sum(N,2) ./ b;
+  med = median(N,2);
+  mini = min(N,[],2);
+  maksi = max(N,[],2);
+  %S = mini;
+  S = [average med mini maksi];

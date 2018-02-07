@@ -5,4 +5,4 @@ function mbd=spherical_mirror_aberr(fn,D) % mean blur diameter
   theta = asin(x./(2*f));
   d = 2*f*tan(2.*theta) .*((1./(cos(theta)))-1);
   mbd = ((8*delta_x)/D^2)*sum(x.*d);
-  %mbd = ;
+  

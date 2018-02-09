@@ -4,3 +4,4 @@ function r=eligible(v,q)
     a = 1;
   end
   r = logical(a);
+  %  ok = mean([v q]) >= 92 && v > 88 && q > 88;

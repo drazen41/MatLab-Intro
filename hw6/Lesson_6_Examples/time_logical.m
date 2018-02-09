@@ -1,6 +1,7 @@
 clear w;
 tic;
 w = v(v>0);
+lTime = toc;
 fprintf('Time for logical version = %f\n',toc)
 clear w
 tic;
@@ -12,4 +13,6 @@ for ii = 1:length(v)
       w(jj) = v(ii);
    end
 end
+fTime = toc;
 fprintf('Time for for-loop version = %f\n',toc)
+fprintf('For-loop je sporiji %d puta\n', fTime / lTime)

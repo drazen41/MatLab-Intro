@@ -9,4 +9,6 @@ function s=halfsum(A)
     t = t+1;
   end
   
-  
+  % there is a built-in MATLAB function for almost anything...
+
+   % h = sum(sum(triu(flipud(A))))

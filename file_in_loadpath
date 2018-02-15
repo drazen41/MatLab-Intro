@@ -1,0 +1,46 @@
+# Created by Octave 4.2.1, Wed Feb 14 12:28:17 2018 GMT <unknown@dsvec-4597>
+# name: ans
+# type: sq_string
+# elements: 1
+# length: 57
+D:\Backup\git\Coursera\MatLab-Intro\hw8\Lesson_8_Examples
+
+
+# name: contents
+# type: sq_string
+# elements: 13
+# length: 71
+ Volume in drive D is Podaci                                           
+# length: 71
+ Volume Serial Number is E857-F826                                     
+# length: 71
+ Directory of D:\Backup\git\Coursera\MatLab-Intro\hw8\Lesson_8_Examples
+# length: 71
+[.]                           numestr.m                                
+# length: 71
+[..]                          read_bin_file.m                          
+# length: 71
+append_array_bin.m            read_dims_array_bin.m                    
+# length: 71
+Climate.txt                   view_text_file.m                         
+# length: 71
+custom_read_bin.m             write_array_bin.m                        
+# length: 71
+custom_write_bin.m            write_dims_array_bin.m                   
+# length: 71
+fileIO.m                      write_temp_precip_txt.m                  
+# length: 71
+Nashville_climate_data.xlsx                                            
+# length: 71
+              13 File(s)         15.174 bytes                          
+# length: 71
+               2 Dir(s)  73.934.868.480 bytes free                     
+
+
+# name: parent
+# type: sq_string
+# elements: 1
+# length: 40
+D:\Backup\git\Coursera\MatLab-Intro\hw8\
+
+

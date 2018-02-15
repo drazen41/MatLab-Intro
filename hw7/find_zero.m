@@ -1,24 +1,12 @@
-function x=find_zero(f,x1,x2)
-  
-  if ~isscalar(x1) || ~isscalar(x2) || x1>x2
-    x=Inf;
-    return
-  end
-  t = (x1+x2)/2
-  y = f(t)
-  
-  while abs(y) > 1e-10
-    a = abs(f(x1))-abs(y)
-    b = abs(f(x2))-abs(y)
-    if abs(a)<abs(b)
-      x2 = t
-    else
-      x1 = t
+function x = find_zero (f, x1,x2)    
+    x = (x1+x2)/2.0;              % find interval midpoint
+    while abs(f(x)) > 1e-10       % are we there yet? 
+        if f(x1)*f(x)>0           % if f(left) and f(mid) have the same sign
+            x1 = x;               % move left to mid
+        else 
+            x2 = x;               % move right to mid
+        end
+        x = (x1+x2)/2.0;          % recalculate midpoint
     end
-    t = (x1+x2)/2
-    y = f(t)
-  end
-  
-  x = t;
-  
+end
   
